@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display"readonly>
+        <div id="keys">
+            <button onclick="appendToDisplay('+')" class="operator.button">+</button>
+            <button onclick="appendToDisplay('7')" class="operator.button">7</button>
+            <button onclick="appendToDisplay('8')" class="operator.button">8</button>
+            <button onclick="appendToDisplay('9')" class="operator.button">9</button>
+            <button onclick="appendToDisplay('-')" class="operator.button">-</button>
+            <button onclick="appendToDisplay('4')" class="operator.button">4</button>
+            <button onclick="appendToDisplay('5')" class="operator.button">5</button>
+            <button onclick="appendToDisplay('6')" class="operator.button">6</button>
+            <button onclick="appendToDisplay('*')" class="operator.button">*</button>
+            <button onclick="appendToDisplay('1')" class="operator.button">1</button>
+            <button onclick="appendToDisplay('2')" class="operator.button">2</button>
+            <button onclick="appendToDisplay('3')" class="operator.button">3</button>
+            <button onclick="appendToDisplay('/')" class="operator.button">/</button>
+            <button onclick="appendToDisplay('0')" class="operator.button">0</button>
+            <button onclick="appendToDisplay('.')" class="operator.button">.</button>
+           <button onclick="calculate()">=</button>
+           <button onclick="clearDisplay()"class="operator.btn">C</button>
+
+
+         <script src="index.js"></script>
+         <script src="index.py"></script>
+
+        </div>
+        </div>
+</body>
+</html>
